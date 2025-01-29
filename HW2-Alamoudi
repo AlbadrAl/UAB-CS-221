@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+      <title>
+         <!-- TODO: Replace the Title with HW2-YourBlazerID -->
+      </title>
+      <style>
+         table , td {
+         	border: 2px solid #595959;
+         	border-collapse: collapse;
+         }
+         td {
+         	padding: 10px;
+         	width: 40px;
+         	height: 40px;
+         }
+      </style>
+   </head>
+   <body>
+      <h1>HTML Practice</h1> 
+      <section>
+         <h2>1.</h2>
+         <!-- TODO: Your solution to #1 here -->
+      </section>
+
+      <section>
+         <h2>2.</h2>
+         <!-- TODO: Your solution to #2 here -->
+      </section>
+
+      <section>
+         <h2>3.</h2>
+         <!-- TODO: Your solution to #3 here -->
+      </section>
+
+      <section>
+         <h2>4.</h2>
+         <!-- TODO: Your solution to #4 here -->
+      </section>
+
+      <section>
+         <h2>5.</h2>
+         <!-- TODO: Your solution to #5 here -->
+      </section>
+
+      <section>
+         <h2>6.</h2>
+         <!-- TODO: Your solution to #6 here 
+         Desktop
+            Linux
+            Mac OS
+            Windows
+         Mobile
+            Android
+            iOS
+         -->
+      </section>
+
+      <section>
+         <h2>7.</h2>
+         <!-- TODO: Your solution to #7 here -->
+      </section>
+   </body>
+</html>
