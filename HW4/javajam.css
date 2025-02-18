@@ -1,0 +1,78 @@
+/*import Lobster font from google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* body styles */
+body {
+    background-color: #FCEBB6;
+    color: #221811;
+    font-family: Tahoma;
+}
+
+/*Centering layout*/
+#wrapper{
+    width: 80%;
+    background-color: #FEFAEB;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+}
+
+/*header styling*/
+header {
+    color:#8C3826;
+    background-color:#D2B48C;
+    text-align:center;
+    padding: 20px; 
+}
+
+/*update h1 to Lobster*/
+h1{
+    font-family:'Lobster';
+    line-height: 200%;
+}
+
+/*Heading styles*/
+h2 {
+    color:#8C3826;
+}
+
+/*Navigation styles*/
+nav {
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/*Link styling */
+a {
+    color: #8C3826;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color:#5C2E1F;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #A05A3B;
+}
+/* footer styling*/
+footer {
+    background-color: #D2B48C;
+    font-size: 0.60em;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+}
+
+/* table borders */
+table{
+    border: 2px solid #221811;
+    border-collapse: collapse; 
+}
+
+td, th {
+    border: 2px solid #221811;
+    padding: 8px; }
