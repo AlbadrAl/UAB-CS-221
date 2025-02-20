@@ -1,0 +1,76 @@
+/*General styles*/
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f4; 
+    color: #333; 
+    margin: 0; 
+    padding: 0; 
+}
+
+/*Typograph */
+h1, h2, h3 {
+    font-family: Georgia, serif; 
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 20px; 
+}
+
+p {
+    font-size: 16px; 
+    line-height: 1.5; 
+}
+
+/*Colors and backgrounds */
+header {
+    background-color: #04541c; 
+    color: #fff; 
+    padding: 20px; /*padding in header*/
+    text-align: center; /*center text*/
+}
+
+section {
+    background-color: #fff; 
+    margin: 20px; /*sace around sections*/
+    padding: 20px; /*padding inside sections */
+}
+
+footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 10px; /*padding inside footer */
+    text-align: center; /*center text */
+}
+
+/*text/link Styling */
+a {
+    color: #0077cc; /*blue for links */
+    text-decoration: none; /*remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /*underline when hover */
+}
+
+strong {
+    font-weight: bold; /*Bold text */
+}
+
+em {
+    font-style: italic; /*Italic text */
+}
+
+/*image styke */
+img {
+    max-width: 100%; /*Make the image responsive */
+    height: auto; /* auto aspect ratio */
+    border: 2px solid #333; /* border */
+    border-radius: 10px; /*round corners*/
+    margin: 10px 0; /*space around images */
+}
+
+/*footer style*/
+footer p {
+    margin: 0; /*remove the default margin */
+}
