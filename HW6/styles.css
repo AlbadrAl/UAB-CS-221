@@ -1,0 +1,27 @@
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#board{
+    font: 85px arial, sans-serif;
+    margin: 3px;
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+    grid-gap: 10px;
+    justify-content:center;
+}
+
+#board > div{
+    border: 1px solid rgb(242, 232, 90);
+    text-align: center;
+}
+
+.x {
+    color: rgb(232, 1, 39);
+}
+
+.o {
+    color: rgb(2, 2, 233);
+}
