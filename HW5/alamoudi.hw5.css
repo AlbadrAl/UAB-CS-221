@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    padding: 10px;
+    background-color: #005522; 
+    color: #ffffff; 
+    border-bottom: 2px solid #262930; /*border */
+    z-index: 100; /*header stays above other content */
+}
+
+main {
+    width: 80%;
+    margin: 0 auto; /*center the main element*/
+    padding: 20px;
+    background-color: #9de5fb; 
+    color: #333;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    background-color: #262930; 
+    color: #c4d7f0; 
+}
+
+p {
+    padding: 1em; /*1em padding on all sides*/
+}
