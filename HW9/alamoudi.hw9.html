@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Checker</title>
+    <style>
+        body {
+            background-color: #57a6eb; /*light blue background */
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+    </style>
+    <script>
+        //asking the user for input
+        let userInput= prompt("Please enter a numeric value:");
+        
+        //seeing if the input is a valid number
+        if (userInput=== null || userInput.trim() === ""){
+            console.log("No input provided. Please refresh the page and try again.");
+        } else {
+            let number= Number(userInput);
+            
+            if (isNaN(number)){
+                console.log("Invalid input: '" +userInput+"' is not a number.");
+            } else{
+                //even or odd
+                if (number % 2===0) {
+                    console.log("The number "+number+ "is even.");
+                } else {
+                    console.log("The number "+number+ "is odd.");
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>Even or Odd</h1>
+    <p>To see result: Right click- Inspect- Console-.</p>
+</body>
+</html>
