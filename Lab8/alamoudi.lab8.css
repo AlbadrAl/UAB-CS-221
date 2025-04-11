@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+h1 {
+    color: #333;
+}
+.buttons {
+    margin: 20px;
+}
+button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+#rock { background: #2b00d9; color: white; }
+#paper { background: #008504; color: white; }
+#scissors { background: #6e000080; color: white; }
+.results {
+    margin: 10px auto;
+    padding: 12px;
+    max-width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
